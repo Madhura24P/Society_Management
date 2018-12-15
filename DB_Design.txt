@@ -1,0 +1,64 @@
+Database Name : Society
+
+Table 1 : Builder_Member_Info
+Columns:
+1. Flat No
+2. Wing Name
+3. Possesion data
+4. Primary Owner
+5. Secondary Owner
+6. Certificate
+7. Flat Area
+
+Table 2 : Member_Info
+Columns: 
+1. Flat No
+2. Wing Name
+3. Primary Owner
+4. Secondary Owner
+5. Parking Spot
+6. Maintenance Rate
+
+Table 3 : Amenities_Info
+Columns : 
+1. Swimming Pool
+2. GYM
+3. Event Hall
+4. Garden 
+5. Walking Track
+6. Badminton Court
+
+Table 4 : Shop_Owner_Info
+Columns :
+1. Shop No
+2. Shop Owner
+3. Wing Name
+4. Maintenance Rate
+
+Table 5 : Maintenance_Info
+Columns :
+1. Flat Area
+2. Flat Type
+3. Maintenance Rate
+
+Table 6 : Vendor_Info
+Columns :
+1. Vendor Name
+2. Vendor Payment Rate
+3. Vendor Document List
+
+Table 7 : Society_Events
+Columns :
+1. Event
+2. Start Date
+3. End Date
+4. Expenses
+
+Table 8 : Monthly_Expenses_Info
+Columns :
+1. Expense_Info
+2. Expense Rate
+3. Expense Month
+4. Expense Date
+
+4. 
