@@ -1,0 +1,20 @@
+1. create table BuilderMember_Info ( Flat_No int not null , wing_Name varchar(50) , possesion_Date date , primary_Owner varchar(50) , secondary_Owner varchar(50) , certificate varchar (50) , Flat_Area decimal);
+
+Alter table BuilderMember_Info change Possesio_Date possesion_Date date;
+
+2. create table Member_Info ( Flat_No int not null , wing_Name varchar(50) , primary_Owner varchar(50) , secondary_Owner varchar(50)  , parking_spot varchar(50) , maintenance_Rate decimal);
+
+
+3. create table Shop_Owner_Info (  Shop_No int, shop_Owner varchar(50) , wing_Name varchar(50)  , maintenance_Rate decimal);
+
+
+
+4. create table Monthly_Expense_Info (  expense_Info varchar(50) , expense_Month varchar(50) , expense_Date date  , expense_Rate decimal);
+
+5. create table Vendor_Info ( vendor_Name varchar(50) , vendor_Rate decimal , vendor_documents varchar(50));
+
+6. create table Maintenance_Info ( flat_Area decimal , flat_Type varchar(50), maintenance_Rate decimal);
+
+7. create table Amenities_Info ( Amenity varchar(50), Rate decimal);
+
+8. create table Society_Events ( event_Name varchar(50) , event_Expense decimal , start_date date , end_date date);
